@@ -1,0 +1,4 @@
+site_name: Claude Artifacts
+site_url: https://aapfeldorf.github.io
+theme:
+  name: material
