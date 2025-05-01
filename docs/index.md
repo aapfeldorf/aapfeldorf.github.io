@@ -54,14 +54,14 @@ Claude is primarily known for its ability to generate code for a variety of use 
 | **React** | User interface components and data visualization |
 
 ## Coding Uses
->Artifact types: React, Code, HTML
+>Artifact use cases: Personal websites, simple web apps, data analysis
 
-One common use case for Claude is generating code, without needing to know anything about programming yourself! In Artifacts, Claude can generate React code, which is used to create interactive interfaces that run directly in your browser. These are essentially mini apps that can range from calculators and visualizers to fun things like small games and personality tests.
+One common use case for Claude is generating code, without needing to know anything about programming yourself! In Artifacts, Claude can generate React code, which creates interactive interfaces that run directly in your browser. Interactive Artifacts act like mini apps that can range from calculators and visualizers to fun things like small games and personality tests.
 
 As an example of what Claude can do with coding, we'll go over the process of creating a tool that calculates the unit prices for different products and tells you which one has the best value.
 
 ### Getting Familiar With The Tools
-Before diving into a full project, try making a small Artifact to get used to the Claude interface. In the chat box, type **"Make a small tool that multiplies two numbers from my input."** Once it's done generating, you should see an Artifact like the one below:
+Before diving into a full project, try making a small Artifact to get used to the Claude interface. In the chat box, type **"Make a small tool that multiplies two numbers from my input."** Once Claude finishes generating, you should see an Artifact like the one below:
 ![Claude window showing the conversation that generated an Artifact](https://hackmd.io/_uploads/SJGJBKKTJx.png)
 Feel free to test it out and ask follow-up questions before moving on.
 
@@ -73,7 +73,7 @@ Let's say you're shopping and you want to buy some cookies. You have plenty of o
 #### 1. Single Item Calculator
 In a new Claude chat, type **"Create a calculator where I can enter the quantity and price for a product and automatically get the price per item."** Including "quantity and price" tells Claude exactly what you want to put in, and "price per item" tells Claude how you want the output. With that information, it should produce an Artifact like this:
 ![Screenshot of the Claude interface showing an artifact titled "Price Per Item Calculator". It has fields to input quantity and total price, a calculate button, and an area where it shows the calculated price per item.](https://hackmd.io/_uploads/Bk2ejKFaJg.png)
-With this, you can calculate the unit price of a single product.
+With this Artifact, a simple web app, you can calculate the unit price of a single product.
 
 #### 2. Multiple Items
 Now, we'll ask Claude to modify the Artifact to work with multiple products at the same time. In the same chat, type **"Add the ability to add more than one product and calculate the price per item for each of them."** Claude will modify the Artifact like this:
