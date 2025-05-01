@@ -2,5 +2,20 @@ site_name: Claude Artifacts
 site_url: https://aapfeldorf.github.io
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: orange
+    accent: deep orange
 markdown_extensions:
   - tables
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+extra_css:
+  - stylesheets/extra.css

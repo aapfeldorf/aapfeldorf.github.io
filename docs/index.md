@@ -1,6 +1,6 @@
 # Claude Artifacts
->[!Note][Anthropic official documentation on Artifacts](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)
-> Artifacts allow Claude to share substantial, standalone content with you in a dedicated window separate from the main conversation. Artifacts make it easy to work with significant pieces of content that you may want to modify, build upon, or reference later.
+!!! note "[Anthropic official documentation on Artifacts](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)"
+    *Artifacts allow Claude to share substantial, standalone content with you in a dedicated window separate from the main conversation. Artifacts make it easy to work with significant pieces of content that you may want to modify, build upon, or reference later.*
 > 
 <!--**<span style="background: linear-gradient(in oklch longer hue 90deg, oklch(0.68 0.1379 0), oklch(0.68 0.1379 360)); background-clip: text; color: rgb(0 0 0 / 0)">it's okay to slay</span>** -->
 
@@ -26,7 +26,7 @@ that's all you need to know. guide over. tamandua win --->
 >![Example Artifact window showing React code for a to-do list](https://hackmd.io/_uploads/BJbzSKtTyx.png)
 > An example Artifact window showcasing the code for a "simple to-do list using React"
 ### Preview/Code Toggle
-In the top left of the example Artifact window you will see a toggle for the options "Preview" and "Code" (the eyeball and the ```</>``` respectively). It allows you to either see the code Claude has generated or the visual components created by the code. Depending on your use case, no visuals may need to be displayed, so the toggle will not appear. This is mainly when generating certain types of code. 
+In the top left of the example Artifact window you will see a toggle for the options "Preview" and "Code" (the eyeball and the `#!html <​/​> ` respectively). It allows you to either see the code Claude has generated or the visual components created by the code. Depending on your use case, no visuals may need to be displayed, so the toggle will not appear. This is mainly when generating certain types of code. 
 
 ### Copy and Download
 In the top right of the example Artifact window, a "Copy" button with a drop down menu for downloading the Artifact is displayed. 
@@ -96,8 +96,8 @@ Although this unit price calculator is all we intended to create, there's no rea
 ## Data Visualization
 >Artifact Types: Mermaid, HTML, React, SVG
 
->[!Note] **Note**
-**Ensure the Analysis Tool is enabled to allow Claude to analyze the documents you have submitted.**
+!!! note
+    **Ensure the Analysis Tool is enabled to allow Claude to analyze the documents you have submitted.**
 
 Claude is able to process and organize data in various formats such as flowcharts and documents. While Artifacts may consist of code skeletons for a user to edit manually, Claude can also interpret given data and return a more detailed code blocks for specific needs.
 
