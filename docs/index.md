@@ -7,7 +7,7 @@
 ## What are Artifacts?
 Artifacts are a feature built into the website for the large language model (LLM) Claude. They allow Claude to generate content beyond simple chat messages that show up separate from the conversation, perfect for uses that require specific formatting or visuals. Some examples include webpages, diagrams and charts, and formatted documents.
 
-While Claude is geared towards coding and writing applications, almost anyone can take advantage of it's tools, even if you have minimal-to-no coding experience. This guide is intended for those with minimal coding skills or anyone who may be curious about what Claude can do for them in their day-to-day life. While Claude does provide documentation and general information detailing how Artifacts work, they use technical language that assumes you have a higher base-line knowledge of LLMs than most people. This guide is an attempt to explain in accessible terms how you can utilize Artifacts and what features may suit your needs best. 
+While Claude is geared towards coding and writing applications, almost anyone can take advantage of its tools, even users with minimal-to-no coding experience. This guide is intended for those with minimal coding skills or anyone who may be curious about what Claude can do for them in their day-to-day life. While Claude does provide documentation and general information detailing how Artifacts work, they use technical language that assumes you have a higher base-line knowledge of LLMs than most people. This guide explains in accessible terms how you can utilize Artifacts and what features may suit your needs best. 
 
 ## Guide Outline
 
@@ -117,9 +117,9 @@ Additionally, when Claude is given custom documentation of details a user would 
 
 > Claude can dissect complicated documentation and format it into a mind map or flowchart as needed
 ## Document Templates
->Artifact Types: Markdown, HTML, Mermaid
+>Artifact use cases: budget/expenditure reports, resumes, _user guides_
 
-Another feature of Artifacts is its ability to generate document templates. Classroom assignments, budget reports, _user guides_, Claude can take any context or information given and integrate it into your desired document. Unfortunately, Claude is not capable of generating Artifacts in the form of Microsoft Word documents (```.docx``` files). They can only be downloaded as Markdown (```.md```), text (```.txt```), or PDF (```.pdf```) files. Resources online can [convert markdown to word documents](https://mconverter.eu/convert/markdown/docx/). 
+Another feature of Artifacts is its ability to generate document templates. Claude can take any context or information given and integrate it into your desired document. Unfortunately, Claude is not capable of generating Artifacts in the form of Microsoft Word documents (```.docx``` files). They can only be downloaded as Markdown (```.md```), text (```.txt```), or PDF (```.pdf```) files. Markdown is an [easy-to-use language for creating formatted text documents](https://www.markdownguide.org/getting-started/). Resources online can [convert markdown to word documents](https://mconverter.eu/convert/markdown/docx/). 
 
 As an example, assume you are a engineering student in college who needs to clean up their resume before applying for summer internships. You have a current resume, but it's a little messy and you aren't really sure how to go about cleaning it up. You ask Claude "Can you generate a sample resume for an engineering student?" It may spit out an Artifact like this: 
 
@@ -145,7 +145,7 @@ With the usage of AI, the discussion of ethics is never far off. This guide is n
 This is a pretty standard rule of the internet. LLMs commonly use their users' conversations for training purposes, so it is important to not share sensitive information.
 
 ### Information accuracy
-Information put out by an LLM is not always correct. Accuracy can vary from slightly wrong to totally misinformed, so it is important to take whatever responses you recieve with a grain of salt. Doing your own fact checking can ensure you do not fall victim to incorrect information.
+Information put out by an LLM is not always correct. Accuracy can vary from slightly wrong to totally misinformed, so it is important to take whatever responses you receive with a grain of salt. Doing your own fact checking can ensure you do not fall victim to incorrect information.
 
 ### Sources of training data
 The material used to train LLMs can come from a variety of sources. Sometimes, these sources are legally ambiguous due to copyright and intellectual property rights. When using an LLM, you most likely won't be able to tell where your information is coming from, so it is important to be aware of these issues.
