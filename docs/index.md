@@ -24,22 +24,22 @@ that's all you need to know. guide over. tamandua win --->
 
 ## General Artifact Features
 >![Example Artifact window showing React code for a to-do list](https://hackmd.io/_uploads/BJbzSKtTyx.png)
-> An example Artifact window showcasing the code for a "simple to-do list using React"
+> An example Artifact window showing the code for a simple to-do lists user interface.
 ### Preview/Code Toggle
-In the top left of the example Artifact window you will see a toggle for the options "Preview" and "Code" (the eyeball and the `#!html <​/​> ` respectively). It allows you to either see the code Claude has generated or the visual components created by the code. Depending on your use case, no visuals may need to be displayed, so the toggle will not appear. This is mainly when generating certain types of code. 
+In the top left of the example Artifact window you will see a toggle for the options **"Preview"** and **"Code"** (the eyeball and the ```</>``` respectively). Toggling allows you to either see the code Claude has generated or the visual components created by the code. Depending on your use case, no visuals may need to be displayed, so the toggle will not appear. The toggle appears mainly when generating code that produces a user interface, data visualizations, or other types of graphical output. 
 
 ### Copy and Download
-In the top right of the example Artifact window, a "Copy" button with a drop down menu for downloading the Artifact is displayed. 
+In the top right of the example Artifact window, a **"Copy"** button with a drop down menu for downloading the Artifact is displayed. 
 
-"Copy " allows you to copy the Artifact code/content to your clipboard so that you can paste it wherever you may need. 
+**"Copy"** allows you to copy the Artifact code/content to your clipboard so that you can paste it wherever you may need. 
 
-"Download as ..." will turn the Artifact content into a file and download it to your device. The file type depends on what Claude generated; for example, a document template might create a Markdown file while code for a program in the language C will generate as a `.c` file.
+**"Download as ..."** will turn the Artifact content into a file and download it to your device. The file type depends on what Claude generated; for example, a document template might create a Markdown file while code for a program in the language C will generate as a `.c` file.
 
 ### Publish
-The publish tool makes your Artifact publicly-accessible. It won't make the conversation public, but those with the public link (generated when published) will be able to view your Artifact in their browser. It cannot be edited directly from this public link, but it can be "Remixed", allowing any user to create their own Claude conversation with the Artifact. Any published Artifact must be republished to show up-to-date changes and can also be unpublished at any time. 
+The publish tool makes your Artifact publicly-accessible. Publishing won't make the conversation publicly searchable, but individuals with the public link (generated when published) will be able to view your Artifact in their browser. The Artifact code cannot be edited directly from this public link, but it can be **"Remixed"**, allowing any user to create their own Claude conversation with the Artifact. Any published Artifact must be republished to show up-to-date changes and can also be unpublished at any time. 
 
 ### Claude's Analysis Tool
-The Analysis Tool allows Claude to run code that processes, analyzes, and provides real-time visualizations of submitted data. This allows users to work alongside Claude to generate Artifacts for more specific coding needs, especially for data visualization or document formatting. The analysis tool can be enabled through user settings under the "Profile" tab under "Feature Preview".
+The Analysis Tool allows Claude to run code that processes, analyzes, and provides real-time visualizations of submitted data. This allows users to work alongside Claude to generate Artifacts for more specific coding needs, especially for data visualization or document formatting. The analysis tool can be enabled through user settings under the **"Profile"** tab under **"Feature Preview"**.
 
 
 ## Types of Artifacts
