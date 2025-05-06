@@ -62,7 +62,7 @@ As an example of what Claude can do with coding, we'll go over the process of cr
 
 ### Getting Familiar With The Tools
 Before diving into a full project, try making a small Artifact to get used to the Claude interface. In the chat box, type **"Make a small tool that multiplies two numbers from my input."** Once Claude finishes generating, you should see an Artifact like the one below:
-![Claude window showing the conversation that generated an Artifact](https://hackmd.io/_uploads/SJGJBKKTJx.png)
+![Claude window showing the conversation that generated an Artifact](artifact_example_annotated.png)
 Feel free to test it out and ask follow-up questions before moving on.
 
 ### Creating a Unit Price Calculator
