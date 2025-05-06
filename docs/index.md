@@ -23,7 +23,7 @@ that's all you need to know. guide over. tamandua win --->
 
 
 ## General Artifact Features
->![Example Artifact window showing React code for a to-do list](https://hackmd.io/_uploads/BJbzSKtTyx.png)
+>![Example Artifact window showing React code for a to-do list](artifact_example_annotated.png)
 > An example Artifact window showing the code for a simple to-do lists user interface.
 ### Preview/Code Toggle
 In the top left of the example Artifact window you will see a toggle for the options **"Preview"** and **"Code"** (the eyeball and the ```</>``` respectively). Toggling allows you to either see the code Claude has generated or the visual components created by the code. Depending on your use case, no visuals may need to be displayed, so the toggle will not appear. The toggle appears mainly when generating code that produces a user interface, data visualizations, or other types of graphical output. 
