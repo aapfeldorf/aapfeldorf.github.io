@@ -21,11 +21,11 @@ While Claude is geared towards coding and writing applications, almost anyone ca
 ## General Artifact Features
 
 >![Example Artifact window showing React code for a to-do list](https://hackmd.io/_uploads/BJbzSKtTyx.png)
-> An example Artifact window showing the code for a simple to-do lists user interface.
+> An example Artifact window showing the code for a simple to-do list user interface.
 >
 ### Preview/Code Toggle
 
-In the top left of the example Artifact window you will see a toggle for the options **"Preview"** and **"Code"** (the eyeball and the ```</>``` respectively). Toggling allows you to either see the code Claude has generated or the visual components created by the code. Depending on your use case, no visuals may need to be displayed, so the toggle will not appear. The toggle appears mainly when generating code that produces a user interface, data visualizations, or other types of graphical output.
+In the top left of the example Artifact window you will see a toggle for the options **"Preview"** and **"Code"** (the eyeball and the ```</>``` respectively). Toggling allows you to either see the code Claude has generated or the visual components created by the code. Depending on your use case, no visuals may need to be displayed, so the toggle will not appear. The toggle appears when generating code that produces a user interface, data visualizations, or other types of graphical output.
 
 ### Copy and Download
 
@@ -78,13 +78,13 @@ Let's say you're shopping and you want to buy some cookies. You have plenty of o
 
 In a new Claude chat, type **"Create a calculator where I can enter the quantity and price for a product and automatically get the price per item."** Including "quantity and price" tells Claude exactly what you want to put in, and "price per item" tells Claude how you want the output. With that information, it should produce an Artifact like this:
 ![Screenshot of the Claude interface showing an artifact titled "Price Per Item Calculator". It has fields to input quantity and total price, a calculate button, and an area where it shows the calculated price per item.](https://hackmd.io/_uploads/Bk2ejKFaJg.png)
-With this Artifact, a simple web app, you can calculate the unit price of a single product.
+With this Artifact, a basic web app, you can calculate the unit price of a single product.
 
 #### 2. Multiple Items
 
 Now, we'll ask Claude to modify the Artifact to work with multiple products at the same time. In the same chat, type **"Add the ability to add more than one product and calculate the price per item for each of them."** Claude will modify the Artifact like this:
 ![Screenshot of the Claude interface showing the calculator artifact with multiple items and a button to add new items](https://hackmd.io/_uploads/HyAA6tKpJg.png)
-In this new version, you can add and remove products just like we wanted to. Claude also made it possible to change the name of products, so you know exactly which ones you're looking at. However, it still requires you to click calculate for each individual product, which can get annoying. Let's get Claude to fix that.
+In this new version, you can add and remove products like we wanted to. Claude also made it possible to change the name of products, so you know exactly which ones you're looking at. However, it still requires you to click calculate for each individual product, which can get annoying. Let's get Claude to fix that.
 
 #### 3. Removing Individual Calculate Buttons
 
@@ -133,28 +133,28 @@ Additionally, when Claude is given custom documentation of details a user would 
 
 Another feature of Artifacts is its ability to generate document templates. Claude can take any context or information given and integrate it into your desired document. Unfortunately, Claude is not capable of generating Artifacts in the form of Microsoft Word documents (```.docx``` files). They can only be downloaded as Markdown (```.md```), text (```.txt```), or PDF (```.pdf```) files. Markdown is an [easy-to-use language for creating formatted text documents](https://www.markdownguide.org/getting-started/). Resources online can [convert markdown to word documents](https://mconverter.eu/convert/markdown/docx/).
 
-As an example, assume you are a engineering student in college who needs to clean up their resume before applying for summer internships. You have a current resume, but it's a little messy and you aren't really sure how to go about cleaning it up. You ask Claude "Can you generate a sample resume for an engineering student?" It may spit out an Artifact like this:
+As an example, assume you are an engineering student in college who needs to clean up their resume before applying for summer internships. You have a current resume, but it's a little messy and you aren't really sure how to go about cleaning it up. You ask Claude, "Can you generate a sample resume for an engineering student?" It may spit out an Artifact like this:
 
 ![Sample resume Artifact with filled in information](https://hackmd.io/_uploads/B1_2YttTke.png)
 
-This is a great start. The formatting is appealing and the organizational structure is solid. However, you aren't Alex Rodriguez and this information isn't representative of you.  To refine the document, you may want to ask something like this: "I like the layout and format, but can you take out the sample information?"
+This is a great start. The formatting is appealing and the organizational structure is solid. But you aren't Alex Rodriguez and this information isn't representative of you.  To refine the document, you may want to ask something like this: "I like the layout and format, but can you take out the sample information?"
 
 ![Resume template Artifact with fillable sections](https://hackmd.io/_uploads/BkqkoKY61x.png)
 
-Now you have a blank-slate template with the formatting preserved. From here, you have multiple options with how to proceed. You can:
+Now you have a blank-slate template with the formatting preserved. From here, you have many options with how to proceed. You can:
 
 * Copy the text and paste it into a word processor like Microsoft Word or Google Docs and work on it from there.
 * Ask Claude to fill in certain sections of the resume with the information you provide it (projects, previous employment, skills, etc).
 * Continue to change formatting until you are satisfied.
 * Download the Artifact as a PDF ready to upload to applicant pages.
 
-In just minutes you generated a usable resume that looks good to employers and can be easily modified. If your application requires it, you could also ask Claude to create a cover-letter template using your resume. This is just one of many ways you can utilize Artifacts, and specifically document templates, to increase your productivity and assist you in your day-to-day tasks.
+In minutes, you generated a usable resume that looks good to employers and can be easily modified. If your application requires it, you could also ask Claude to create a cover-letter template using your resume. This is one of many ways you can use Artifacts and specifically document templates to boost your productivity and assist you in your day-to-day tasks.
 
 ## Ethical Implications
 
-With the usage of AI, the discussion of ethics is never far off. This guide is not intended to advise you on how to ethically use LLMs or other forms of artificial intelligence, but instead this section will inform you on some basic ideals/practices that should be kept in mind when using AI/LLMs.
+With the usage of AI, the discussion of ethics is never far off. This guide is not intended to recommend you on how to ethically use LLMs or other forms of artificial intelligence, but this section will inform you on some basic ideals/practices to keep in mind when using AI/LLMs.
 
-### Never share sensitive personal information
+### Never share sensitive/personal information
 
 This is a pretty standard rule of the internet. LLMs commonly use their users' conversations for training purposes, so it is important to not share sensitive information.
 
@@ -164,12 +164,12 @@ Information put out by an LLM is not always correct. Accuracy can vary from slig
 
 ### Sources of training data
 
-The material used to train LLMs can come from a variety of sources. Sometimes, these sources are legally ambiguous due to copyright and intellectual property rights. When using an LLM, you most likely won't be able to tell where your information is coming from, so it is important to be aware of these issues.
+The material used to train LLMs can come from a variety of sources, most commonly referred to as "data scraping, a morally and legally dubious way of collecting potentially copyrighted data for a model. When using an LLM, you most likely won't be able to tell where your information is coming from, so it is important to be aware of these issues.
 
 ### Environmental concerns
 
-LLMs and data centers require a **lot** of energy to maintain. With the proliferation of AI, more and more energy will be required for upkeep.
+LLMs and data centers need a **lot** of energy to keep running. With the proliferation of AI, more and more energy will be required for upkeep.
 
 ## Summary
 
-You have now reached the end of this guide on Claude Artifacts. You should now be able to use Claude to generate a variety of items to help you in your everyday life. Specifically, this guide has gone over items like personal tools and websites, different forms of data visualization, and document templates for use by you or others. Remember, Claude and other forms of generative AI are not perfect and may not produce exactly what you envision, nor will it always have 100% accurate information. When using Claude or other types of generative AI, make sure to be an informed user and practice general internet safety when it comes to personal/sensitive information.
+You have now reached the end of this guide on Claude Artifacts. You should now be able to use Claude to generate a variety of items to help you in your everyday life. Specifically, this guide has gone over items like personal tools and websites, different forms of data visualization, and document templates for use by you or others. Remember, Claude and other forms of generative AI are not perfect and may not produce exactly what you envision, nor will it always have accurate information. When using Claude or other types of generative AI, make sure to be an informed user and practice general internet safety when it comes to personal/sensitive information.
