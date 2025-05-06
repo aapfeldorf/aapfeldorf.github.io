@@ -29,7 +29,7 @@ that's all you need to know. guide over. tamandua win --->
 In the top left of the example Artifact window you will see a toggle for the options **"Preview"** and **"Code"** (the eyeball and the ```</>``` respectively). Toggling allows you to either see the code Claude has generated or the visual components created by the code. Depending on your use case, no visuals may need to be displayed, so the toggle will not appear. The toggle appears mainly when generating code that produces a user interface, data visualizations, or other types of graphical output. 
 
 ### Copy and Download
-In the top right of the example Artifact window, a **"Copy"** button with a drop down menu for downloading the Artifact is displayed. 
+In the top right of the example Artifact window, a **"Copy"** button with a dropdown menu for downloading the Artifact is displayed. 
 
 **"Copy"** allows you to copy the Artifact code/content to your clipboard so that you can paste it wherever you may need. 
 
