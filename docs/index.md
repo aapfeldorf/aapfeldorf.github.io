@@ -153,3 +153,5 @@ The material used to train LLMs can come from a variety of sources. Sometimes, t
 ### Environmental concerns
 LLMs and data centers require a **lot** of energy to maintain. With the proliferation of AI, more and more energy will be required for upkeep. 
 
+## Summary
+You have now reached the end of this guide on Claude Artifacts. You should now be able to use Claude to generate a variety of items to help you in your everyday life. Specifically, this guide has gone over items like personal tools and websites, different forms of data visualization, and document templates for use by you or others. Remember, Claude and other forms of generative AI are not perfect and may not produce exactly what you envision, nor will it always have 100% accurate information. When using Claude or other types of generative AI, make sure to be an informed user and practice general internet safety when it comes to personal/sensitive information. 
