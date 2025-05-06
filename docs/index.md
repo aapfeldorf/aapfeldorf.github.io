@@ -29,7 +29,7 @@ In the top left of the example Artifact window you will see a toggle for the opt
 
 ### Copy and Download
 
-In the top right of the example Artifact window, a **"Copy"** button with a drop down menu for downloading the Artifact is displayed.
+In the top right of the example Artifact window, a **"Copy"** button with a drop down menu for downloading the Artifact is displayed. 
 
 **"Copy"** allows you to copy the Artifact code/content to your clipboard so that you can paste it wherever you may need.
 
