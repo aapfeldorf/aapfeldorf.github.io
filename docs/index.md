@@ -1,13 +1,13 @@
 # Claude Artifacts
-!!! note "[Anthropic official documentation on Artifacts](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)"
-    *Artifacts allow Claude to share substantial, standalone content with you in a dedicated window separate from the main conversation. Artifacts make it easy to work with significant pieces of content that you may want to modify, build upon, or reference later.*
+<!---!!! note "[Anthropic official documentation on Artifacts](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)"
+    *Artifacts allow Claude to share substantial, standalone content with you in a dedicated window separate from the main conversation. Artifacts make it easy to work with significant pieces of content that you may want to modify, build upon, or reference later.* --->
 > 
 <!--**<span style="background: linear-gradient(in oklch longer hue 90deg, oklch(0.68 0.1379 0), oklch(0.68 0.1379 360)); background-clip: text; color: rgb(0 0 0 / 0)">it's okay to slay</span>** -->
 
 ## What are Artifacts?
 Artifacts are a feature built into the website for the large language model (LLM) Claude. They allow Claude to generate content beyond simple chat messages that show up separate from the conversation, perfect for uses that require specific formatting or visuals. Some examples include webpages, diagrams and charts, and formatted documents.
 
-While Claude is geared towards coding and writing applications, almost anyone can take advantage of its tools, even users with minimal-to-no coding experience. This guide is intended for those with minimal coding skills or anyone who may be curious about what Claude can do for them in their day-to-day life. While Claude does provide documentation and general information detailing how Artifacts work, they use technical language that assumes you have a higher base-line knowledge of LLMs than most people. This guide explains in accessible terms how you can utilize Artifacts and what features may suit your needs best. 
+While Claude is geared towards coding and writing applications, almost anyone can take advantage of its tools, even users with minimal-to-no coding experience. This guide is intended for those with minimal coding skills or anyone who may be curious about what Claude can do for them in their day-to-day life. While Claude does provide [documentation and general information](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) detailing how Artifacts work, the documentation uses technical language that assumes you have a higher base-line knowledge of LLMs than most people. This guide explains in accessible terms how you can utilize Artifacts and what features may suit your needs best. 
 
 ## Guide Outline
 
