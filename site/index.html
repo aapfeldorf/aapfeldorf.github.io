@@ -8,9 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://aapfeldorf.github.io/">
+        <link rel="canonical" href="https://aapfeldorf.github.io/site/">
       
       
+      
+        <link rel="next" href="coding-uses/">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -23,6 +25,9 @@
     
     
       <link rel="stylesheet" href="assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -41,6 +46,8 @@
       
     
     
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -51,7 +58,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="deep-orange">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -96,15 +108,15 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Claude Artifacts
+              Overview
             
           </span>
         </div>
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -206,7 +218,7 @@
   
   
   <span class="md-ellipsis">
-    Claude Artifacts
+    Overview
     
   </span>
   
@@ -219,7 +231,7 @@
   
   
   <span class="md-ellipsis">
-    Claude Artifacts
+    Overview
     
   </span>
   
@@ -251,9 +263,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#guide-outline" class="md-nav__link">
+  <a href="#what-is-this-guide" class="md-nav__link">
     <span class="md-ellipsis">
-      Guide Outline
+      What is this guide?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outline
     </span>
   </a>
   
@@ -319,163 +340,175 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#coding-uses" class="md-nav__link">
-    <span class="md-ellipsis">
-      Coding Uses
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Coding Uses">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#getting-familiar-with-the-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      Getting Familiar With The Tools
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#creating-a-unit-price-calculator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Creating a Unit Price Calculator
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Creating a Unit Price Calculator">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-single-item-calculator" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Single Item Calculator
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-multiple-items" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Multiple Items
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-removing-individual-calculate-buttons" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Removing Individual Calculate Buttons
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-comparing-unit-prices" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Comparing Unit Prices
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#next-steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      Next Steps
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data-visualization" class="md-nav__link">
-    <span class="md-ellipsis">
-      Data Visualization
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#document-templates" class="md-nav__link">
-    <span class="md-ellipsis">
-      Document Templates
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ethical-implications" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ethical Implications
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Ethical Implications">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#never-share-sensitive-personal-information" class="md-nav__link">
-    <span class="md-ellipsis">
-      Never share sensitive personal information
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#information-accuracy" class="md-nav__link">
-    <span class="md-ellipsis">
-      Information accuracy
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sources-of-training-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sources of training data
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#environmental-concerns" class="md-nav__link">
-    <span class="md-ellipsis">
-      Environmental concerns
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Use Cases
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Use Cases
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="coding-uses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Coding
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="data-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Visualization
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="document-templates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Document Templates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ethics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ethical Implications
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -516,9 +549,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#guide-outline" class="md-nav__link">
+  <a href="#what-is-this-guide" class="md-nav__link">
     <span class="md-ellipsis">
-      Guide Outline
+      What is this guide?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outline
     </span>
   </a>
   
@@ -584,159 +626,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#coding-uses" class="md-nav__link">
-    <span class="md-ellipsis">
-      Coding Uses
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Coding Uses">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#getting-familiar-with-the-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      Getting Familiar With The Tools
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#creating-a-unit-price-calculator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Creating a Unit Price Calculator
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Creating a Unit Price Calculator">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-single-item-calculator" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Single Item Calculator
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-multiple-items" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Multiple Items
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-removing-individual-calculate-buttons" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. Removing Individual Calculate Buttons
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-comparing-unit-prices" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Comparing Unit Prices
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#next-steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      Next Steps
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data-visualization" class="md-nav__link">
-    <span class="md-ellipsis">
-      Data Visualization
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#document-templates" class="md-nav__link">
-    <span class="md-ellipsis">
-      Document Templates
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ethical-implications" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ethical Implications
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Ethical Implications">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#never-share-sensitive-personal-information" class="md-nav__link">
-    <span class="md-ellipsis">
-      Never share sensitive personal information
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#information-accuracy" class="md-nav__link">
-    <span class="md-ellipsis">
-      Information accuracy
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sources-of-training-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sources of training data
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#environmental-concerns" class="md-nav__link">
-    <span class="md-ellipsis">
-      Environmental concerns
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -754,130 +643,73 @@
 
 
 <h1 id="claude-artifacts">Claude Artifacts</h1>
-<blockquote>
-<p>[!Note]<a href="https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them">Anthropic official documentation on Artifacts</a>
-Artifacts allow Claude to share substantial, standalone content with you in a dedicated window separate from the main conversation. Artifacts make it easy to work with significant pieces of content that you may want to modify, build upon, or reference later.
-</p>
-</blockquote>
+<!---!!! note "[Anthropic official documentation on Artifacts](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)"
+    *Artifacts allow Claude to share substantial, standalone content with you in a dedicated window separate from the main conversation. Artifacts make it easy to work with significant pieces of content that you may want to modify, build upon, or reference later.* --->
+
 <!--**<span style="background: linear-gradient(in oklch longer hue 90deg, oklch(0.68 0.1379 0), oklch(0.68 0.1379 360)); background-clip: text; color: rgb(0 0 0 / 0)">it's okay to slay</span>** -->
 
 <h2 id="what-are-artifacts">What are Artifacts?</h2>
-<p>Artifacts are a feature built into the website for the large language model (LLM) Claude. They allow Claude to generate content beyond simple chat messages that show up separate from the conversation, perfect for uses that require specific formatting or visuals. Some examples include webpages, diagrams and charts, and formatted documents.</p>
-<p>While Claude is geared towards coding and writing applications, almost anyone can take advantage of it's tools, even if you have minimal-to-no coding experience. This guide is intended for those with minimal coding skills or anyone who may be curious about what Claude can do for them in their day-to-day life. While Claude does provide documentation and general information detailing how Artifacts work, they use technical language that assumes you have a higher base-line knowledge of LLMs than most people. This guide is an attempt to explain in accessible terms how you can utilize Artifacts and what features may suit your needs best. </p>
-<h2 id="guide-outline">Guide Outline</h2>
+<p>Artifacts are a feature built into the website for the large language model (LLM) Claude. They allow Claude to generate content beyond basic chat messages that show up separate from the conversation. This feature is perfect for displaying specific formats or visuals such as webpages, diagrams, charts, and formatted documents.</p>
+<p>While Claude is geared towards coding and writing applications, almost anyone can take advantage of its tools, even users with minimal-to-no coding experience. This guide is intended for those with minimal coding skills or anyone who may be curious about what Claude can do for them in their day-to-day life. While Claude provides <a href="https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them">documentation and general information</a> on Artifacts, the documentation uses technical language that assumes you have a higher base-line knowledge of LLMs than most people. This guide explains in accessible terms how you can use Artifacts and what features may suit your needs best.</p>
+<h2 id="what-is-this-guide">What is this guide?</h2>
+<p>This guide teaches you how to use Claude to create a variety of helpful artifacts for your everyday life. It covers items like personal tools and websites, various forms of data visualization, and document templates for you or others to use. Remember, Claude and other forms of generative AI aren't perfect. They might not produce exactly what you envision or provide fully accurate information. For this reason, when using Claude or other form of generative AI, remain informed and practice general internet safety, especially regarding personal or sensitive information.</p>
+<h2 id="outline">Outline</h2>
 <ul>
-<li><a href="#General-Artifact-Features">General Artifact Features</a></li>
-<li><a href="#Coding-Uses">Coding Uses</a></li>
-<li><a href="#Data-Visualization">Data Visualization</a></li>
-<li><a href="#Document-Templates">Document Templates</a></li>
-<li><a href="#Ethical-Implications">Ethical Implications</a></li>
+<li>General Artifact Features (This Page)</li>
+<li><a href="coding-uses/">Coding Uses</a></li>
+<li><a href="data-visualization/">Data Visualization</a></li>
+<li><a href="document-templates/">Document Templates</a></li>
+<li><a href="ethics/">Ethical Implications</a></li>
+<li><a href="about/">About This Guide</a></li>
 </ul>
-<!---![a](https://cincinnatizoo.org/wp-content/uploads/2016/05/tamandua-scaled.jpg)
-that's all you need to know. guide over. tamandua win --->
-
 <h2 id="general-artifact-features">General Artifact Features</h2>
 <blockquote>
 <p><img alt="Example Artifact window showing React code for a to-do list" src="https://hackmd.io/_uploads/BJbzSKtTyx.png" />
-An example Artifact window showcasing the code for a "simple to-do list using React"</p>
+An example Artifact window showing the code for a simple to-do list user interface.
+</p>
 </blockquote>
 <h3 id="previewcode-toggle">Preview/Code Toggle</h3>
-<p>In the top left of the example Artifact window you will see a toggle for the options "Preview" and "Code" (the eyeball and the `````` respectively). It allows you to either see the code Claude has generated or the visual components created by the code. Depending on your use case, no visuals may need to be displayed, so the toggle will not appear. This is mainly when generating certain types of code. </p>
+<p>In the top left of the example Artifact window you will see a toggle for the options <strong>"Preview"</strong> and <strong>"Code"</strong> (the eyeball and the `````` respectively). Toggling allows you to either see the code Claude has generated or the visual components created by the code. Depending on your use case, no visuals may need to be displayed, so the toggle will not appear. The toggle appears when generating code that produces a user interface, data visualizations, or other types of graphical output.</p>
 <h3 id="copy-and-download">Copy and Download</h3>
-<p>In the top right of the example Artifact window, a "Copy" button with a drop down menu for downloading the Artifact is displayed. </p>
-<p>"Copy " allows you to copy the Artifact code/content to your clipboard so that you can paste it wherever you may need. </p>
-<p>"Download as ..." will turn the Artifact content into a file and download it to your device. The file type depends on what Claude generated; for example, a document template might create a Markdown file while code for a program in the language C will generate as a <code>.c</code> file.</p>
+<p>In the top right of the example Artifact window, a <strong>"Copy"</strong> button with a drop down menu for downloading the Artifact is displayed. </p>
+<p><strong>"Copy"</strong> allows you to copy the Artifact code/content to your clipboard so that you can paste it wherever you may need.</p>
+<p><strong>"Download as ..."</strong> will turn the Artifact content into a file and download it to your device. The file type depends on what Claude generated; for example, a document template might create a Markdown file while code for a program in the language C will generate as a <code>.c</code> file.</p>
 <h3 id="publish">Publish</h3>
-<p>The publish tool makes your Artifact publicly-accessible. It won't make the conversation public, but those with the public link (generated when published) will be able to view your Artifact in their browser. It cannot be edited directly from this public link, but it can be "Remixed", allowing any user to create their own Claude conversation with the Artifact. Any published Artifact must be republished to show up-to-date changes and can also be unpublished at any time. </p>
+<p>The publish tool makes your Artifact publicly-accessible. Publishing won't make the conversation publicly searchable, but individuals with the public link (generated when published) will be able to view your Artifact in their browser. The Artifact code cannot be edited directly from this public link, but it can be <strong>"Remixed"</strong>, allowing any user to create their own Claude conversation with the Artifact. Any published Artifact must be republished to show up-to-date changes and can also be unpublished at any time.</p>
 <h3 id="claudes-analysis-tool">Claude's Analysis Tool</h3>
-<p>The Analysis Tool allows Claude to run code that processes, analyzes, and provides real-time visualizations of submitted data. This allows users to work alongside Claude to generate Artifacts for more specific coding needs, especially for data visualization or document formatting. The analysis tool can be enabled through user settings under the "Profile" tab under "Feature Preview".</p>
+<p>The Analysis Tool allows Claude to run code that processes, analyzes, and provides real-time visualizations of submitted data. This allows users to work alongside Claude to generate Artifacts for more specific coding needs, especially for data visualization or document formatting. The analysis tool can be enabled through user settings under the <strong>"Profile"</strong> tab under <strong>"Feature Preview"</strong>.</p>
 <h2 id="types-of-artifacts">Types of Artifacts</h2>
-<p>Claude is primarily known for its ability to generate code for a variety of use cases. 
-|Type|Use Cases|
-|-|-|
-|<strong>Code</strong> |Functions and algorithms|
-|<strong>Markdown</strong>|Document templates (guides, reports, etc.)|
-|<strong>HTML</strong>|Web pages and user interface design|
-|<strong>Mermaid</strong>|Diagrams and charts|
-|<strong>React</strong>|User interface components and data visualization</p>
-<h2 id="coding-uses">Coding Uses</h2>
-<blockquote>
-<p>Artifact types: React, Code, HTML</p>
-</blockquote>
-<p>One common use case for Claude is generating code, without needing to know anything about programming yourself! In Artifacts, Claude can generate React code, which is used to create interactive interfaces that run directly in your browser. These are essentially mini apps that can range from calculators and visualizers to fun things like small games and personality tests.</p>
-<p>As an example of what Claude can do with coding, we'll go over the process of creating a tool that calculates the unit prices for different products and tells you which one has the best value.</p>
-<h3 id="getting-familiar-with-the-tools">Getting Familiar With The Tools</h3>
-<p>Before diving into a full project, try making a small Artifact to get used to the Claude interface. In the chat box, type <strong>"Make a small tool that multiplies two numbers from my input."</strong> Once it's done generating, you should see an Artifact like the one below:
-<img alt="Claude window showing the conversation that generated an Artifact" src="https://hackmd.io/_uploads/SJGJBKKTJx.png" />
-Feel free to test it out and ask follow-up questions before moving on.</p>
-<h3 id="creating-a-unit-price-calculator">Creating a Unit Price Calculator</h3>
-<p>Let's say you're shopping and you want to buy some cookies. You have plenty of options, but you can't tell which has the cheapest price per cookie. Luckily, Claude can make you an Artifact for that exact purpose! By the end of this example, Claude will generate the code seen on the left of the image below, which corresponds to the artifact on the right.
-<img alt="A screenshot of the Claude Artifact interface. The left shows the code for the artifact, and the right shows the preview of the Artifact from the code." src="https://hackmd.io/_uploads/Bks7mTfCyg.png" /></p>
-<h4 id="1-single-item-calculator">1. Single Item Calculator</h4>
-<p>In a new Claude chat, type <strong>"Create a calculator where I can enter the quantity and price for a product and automatically get the price per item."</strong> Including "quantity and price" tells Claude exactly what you want to put in, and "price per item" tells Claude how you want the output. With that information, it should produce an Artifact like this:
-<img alt="Screenshot of the Claude interface showing an artifact titled &quot;Price Per Item Calculator&quot;. It has fields to input quantity and total price, a calculate button, and an area where it shows the calculated price per item." src="https://hackmd.io/_uploads/Bk2ejKFaJg.png" />
-With this, you can calculate the unit price of a single product.</p>
-<h4 id="2-multiple-items">2. Multiple Items</h4>
-<p>Now, we'll ask Claude to modify the Artifact to work with multiple products at the same time. In the same chat, type <strong>"Add the ability to add more than one product and calculate the price per item for each of them."</strong> Claude will modify the Artifact like this:
-<img alt="Screenshot of the Claude interface showing the calculator artifact with multiple items and a button to add new items" src="https://hackmd.io/_uploads/HyAA6tKpJg.png" />
-In this new version, you can add and remove products just like we wanted to. Claude also made it possible to change the name of products, so you know exactly which ones you're looking at. However, it still requires you to click calculate for each individual product, which can get annoying. Let's get Claude to fix that.</p>
-<h4 id="3-removing-individual-calculate-buttons">3. Removing Individual Calculate Buttons</h4>
-<p>Instead of having a calculate button for each product, it would be easier if there was one button that calculated everything. Type <strong>"Combine the calculate buttons into one calculate button that works for every product."</strong>
-<img alt="Screenshot of the Claude interface showing the calculator artifact that has been modified with a &quot;Calculate All Prices&quot; button" src="https://hackmd.io/_uploads/rkl5Olqta1x.png" />
-Success! Now you only have to click the calculate button once after you change the products.</p>
-<h4 id="4-comparing-unit-prices">4. Comparing Unit Prices</h4>
-<p>For our last update, let's make the calculator highlight the product with the lowest unit so we know which one to buy.
-<img alt="Screenshot of the Claude interface showing the calculator artifact with two products, &quot;Vanilla Dream&quot; and &quot;Chocolate Nightmare&quot;. Vanilla Dream has a price per item of \$0.53 and Chocolate Nightmare has a price per item of \$0.50. Chocolate Nightmare is highlighted green with the label &quot;BEST VALUE&quot;." src="https://hackmd.io/_uploads/SyVdphGRyg.png" />
-Now we see that buying Chocolate Nightmare is the best value, since it's $0.50 per cookie compared to $0.53 per cookie.</p>
-<h3 id="next-steps">Next Steps</h3>
-<p>Although this unit price calculator is all we intended to create, there's no reason you have to stop here. Maybe you want the calculator to convert units so it works with weight or volume, or change the design to a cookie theme. Experiment with any ideas you think of, and you may be surprised at what you can create. </p>
-<h2 id="data-visualization">Data Visualization</h2>
-<blockquote>
-<p>Artifact Types: Mermaid, HTML, React, SVG</p>
-<p>[!Note] <strong>Note</strong>
-<strong>Ensure the Analysis Tool is enabled to allow Claude to analyze the documents you have submitted.</strong></p>
-</blockquote>
-<p>Claude is able to process and organize data in various formats such as flowcharts and documents. While Artifacts may consist of code skeletons for a user to edit manually, Claude can also interpret given data and return a more detailed code blocks for specific needs.</p>
-<p>When prompted, Claude can generate Artifacts in formats such as HTML and SVG, and can also generate code to be used specifically in tools and interfaces such as React and Mermaid. This creates more generic code blocks that can be used for general outlines that are easy to edit and build on, even without prior coding experience.
-|Code|Preview (in Claude)|
-|:-:|:-:|
-| <img alt="Artifact &quot;code&quot; window showing code fron an SVG diagram" src="https://hackmd.io/_uploads/ryd7SFtpkx.png" /> | <img alt="Artifact &quot;preview&quot; window showing an SVG diagram" src="https://hackmd.io/_uploads/rk_mBtK61g.png" /> |</p>
-<blockquote>
-<p>Claude can generate code and a preview of its code in its own Artifact preview.</p>
-</blockquote>
-<p>Additionally, when Claude is given custom documentation of details a user would like to include in a diagram, Claude can accurately generate more detailed Artifacts tailored for the information it's given. This is best for users who have denser, more developed ideas to put into code.
-|Provided Document|Preview Result|
-|:-:|:-:|
-|<img alt="rkLfjFF6kl" src="https://hackmd.io/_uploads/HyrCO6zRyx.png" />|<img alt="Flowchart Artifact generated from classes document" src="https://hackmd.io/_uploads/SkMdntFa1l.png" /></p>
-<blockquote>
-<p>Claude can dissect complicated documentation and format it into a mind map or flowchart as needed</p>
-</blockquote>
-<h2 id="document-templates">Document Templates</h2>
-<blockquote>
-<p>Artifact Types: Markdown, HTML, Mermaid</p>
-</blockquote>
-<p>Another feature of Artifacts is its ability to generate document templates. Classroom assignments, budget reports, <em>user guides</em>, Claude can take any context or information given and integrate it into your desired document. Unfortunately, Claude is not capable of generating Artifacts in the form of Microsoft Word documents (<code>.docx</code> files). They can only be downloaded as Markdown (<code>.md</code>), text (<code>.txt</code>), or PDF (<code>.pdf</code>) files. Resources online can <a href="https://mconverter.eu/convert/markdown/docx/">convert markdown to word documents</a>. </p>
-<p>As an example, assume you are a engineering student in college who needs to clean up their resume before applying for summer internships. You have a current resume, but it's a little messy and you aren't really sure how to go about cleaning it up. You ask Claude "Can you generate a sample resume for an engineering student?" It may spit out an Artifact like this: </p>
-<p><img alt="Sample resume Artifact with filled in information" src="https://hackmd.io/_uploads/B1_2YttTke.png" /></p>
-<p>This is a great start. The formatting is appealing and the organizational structure is solid. However, you aren't Alex Rodriguez and this information isn't representative of you.  To refine the document, you may want to ask something like this: "I like the layout and format, but can you take out the sample information?"</p>
-<p><img alt="Resume template Artifact with fillable sections" src="https://hackmd.io/_uploads/BkqkoKY61x.png" /></p>
-<p>Now you have a blank-slate template with the formatting preserved. From here, you have multiple options with how to proceed. You can:</p>
-<ul>
-<li>Copy the text and paste it into a word processor like Microsoft Word or Google Docs and work on it from there.</li>
-<li>Ask Claude to fill in certain sections of the resume with the information you provide it (projects, previous employment, skills, etc).</li>
-<li>Continue to change formatting until you are satisfied.</li>
-<li>Download the Artifact as a PDF ready to upload to applicant pages.</li>
-</ul>
-<p>In just minutes you generated a usable resume that looks good to employers and can be easily modified. If your application requires it, you could also ask Claude to create a cover-letter template using your resume. This is just one of many ways you can utilize Artifacts, and specifically document templates, to increase your productivity and assist you in your day-to-day tasks. </p>
-<h2 id="ethical-implications">Ethical Implications</h2>
-<p>With the usage of AI, the discussion of ethics is never far off. This guide is not intended to advise you on how to ethically use LLMs or other forms of artificial intelligence, but instead this section will inform you on some basic ideals/practices that should be kept in mind when using AI/LLMs.</p>
-<h3 id="never-share-sensitive-personal-information">Never share sensitive personal information</h3>
-<p>This is a pretty standard rule of the internet. LLMs commonly use their users' conversations for training purposes, so it is important to not share sensitive information.</p>
-<h3 id="information-accuracy">Information accuracy</h3>
-<p>Information put out by an LLM is not always correct. Accuracy can vary from slightly wrong to totally misinformed, so it is important to take whatever responses you recieve with a grain of salt. Doing your own fact checking can ensure you do not fall victim to incorrect information.</p>
-<h3 id="sources-of-training-data">Sources of training data</h3>
-<p>The material used to train LLMs can come from a variety of sources. Sometimes, these sources are legally ambiguous due to copyright and intellectual property rights. When using an LLM, you most likely won't be able to tell where your information is coming from, so it is important to be aware of these issues.</p>
-<h3 id="environmental-concerns">Environmental concerns</h3>
-<p>LLMs and data centers require a <strong>lot</strong> of energy to maintain. With the proliferation of AI, more and more energy will be required for upkeep. </p>
+<p>Claude is primarily known for its ability to generate code for a variety of use cases.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Use Cases</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Code</strong></td>
+<td>Functions and algorithms</td>
+</tr>
+<tr>
+<td><strong>Markdown</strong></td>
+<td>Document templates (guides, reports, etc.)</td>
+</tr>
+<tr>
+<td><strong>HTML</strong></td>
+<td>Web pages and user interface design</td>
+</tr>
+<tr>
+<td><strong>Mermaid</strong></td>
+<td>Diagrams and charts</td>
+</tr>
+<tr>
+<td><strong>React</strong></td>
+<td>User interface components and data visualization</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -926,7 +758,7 @@ Now we see that buying Chocolate Nightmare is the best value, since it's $0.50 p
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.sections", "navigation.expand"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.c8b220af.min.js"></script>

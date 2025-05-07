@@ -1,11 +1,15 @@
 site_name: Claude Artifacts
-site_url: https://aapfeldorf.github.io
+site_url: https://aapfeldorf.github.io/site
 theme:
   name: material
   palette:
     scheme: slate
     primary: orange
     accent: deep orange
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
 markdown_extensions:
   - tables
   - admonition
@@ -19,3 +23,11 @@ markdown_extensions:
   - pymdownx.details
 extra_css:
   - stylesheets/extra.css
+nav:
+  - Overview: index.md
+  - Use Cases:
+    - Coding: coding-uses.md
+    - Data Visualization: data-visualization.md
+    - Document Templates: document-templates.md
+  - Ethical Implications: ethics.md
+  - About: about.md
